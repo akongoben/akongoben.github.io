@@ -1,11 +1,13 @@
 title: "My News Blog"
 description: "Latest articles and updates"
 url: "https://akongoben.github.io"
-theme: null
+baseurl: ""
 remote_theme: "mmistakes/minimal-mistakes@4.26.1"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-include-cache
 
 author:
   name: "Ben Akongo"
@@ -18,4 +20,5 @@ defaults:
       type: posts
     values:
       layout: single
+
 
